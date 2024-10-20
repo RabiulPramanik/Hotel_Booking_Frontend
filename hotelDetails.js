@@ -68,8 +68,9 @@ const loadHotelsInLocation = () => {
     .then((data) =>{
         const nameContainer = document.getElementById("hotel-name-container-left")
         const div1 = document.createElement("div")
+        div1.classList.add("hotelName-h3")
         div1.innerHTML = `
-            <h3>${data.name}</h3>
+            <h3 class = "text-warning">${data.name}</h3>
         `
         nameContainer.append(div1);
         const Container = document.getElementById("hotel-image-text")

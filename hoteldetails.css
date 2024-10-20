@@ -28,7 +28,9 @@ h3, h4, h5 {
 
 .hotel-name-container h3 {
     font-family: 'Pacifico', cursive; /* Google Font Pacifico for Hotel Name */
+    columns: #ffe100;
 }
+
 
 /* Modify Search Button */
 .hotel-name-container-right button {

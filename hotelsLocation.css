@@ -18,7 +18,7 @@ border-radius: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #c5f4ff;
+    background-color: #ffffff;
     border-radius: 8px;
 }
 
@@ -35,7 +35,7 @@ border-radius: 20px;
 
 .location-container-right button {
     padding: 8px 15px;
-    background-color: #007bff;
+    background-color: #00aede;
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,6 +44,9 @@ border-radius: 20px;
 
 .location-container-right button:hover {
     background-color: #0056b3;
+}
+.found-container h4{
+    color: #ffff00;
 }
 
 /* Filter and Result Section */
@@ -57,11 +60,11 @@ border-radius: 20px;
 .filter-container {
     flex-basis: 25%;
     padding: 15px;
-    background-color: #dffffe;
+    background-color: #ffffff;
     border-radius: 8px;
 }
 .form-contaner{
-    border: 1px solid gray;
+    border: 2px solid gray;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px;
